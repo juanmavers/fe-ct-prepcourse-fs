@@ -58,7 +58,7 @@ function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar True si está, o False si no está.
    // Tu código:
-   return array.includes(elemento); 
+   return array.includes(elemento);
 }
 
 function agregarNumeros(arrayOfNums) {
@@ -67,7 +67,7 @@ function agregarNumeros(arrayOfNums) {
    // Tu código:
    var arraySumado = 0;
    for (let i = 0; i < arrayOfNums.length; i++) {
-      arraySumado += arrayOfNums[i]; 
+      arraySumado += arrayOfNums[i];
    }
    return arraySumado;
 }
@@ -101,7 +101,7 @@ function multiplicarArgumentos() {
    // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
    // [PISTA]: "arguments" es un arreglo.
    // Tu código:
-   let producto = 1; 
+   let producto = 1;
    if (arguments.length === 0) {
       return 0;
    }
@@ -120,7 +120,7 @@ function cuentoElementos(array) {
    let mayor = 0;
    for (let i = 0; i < array.length; i++) {
       if (array[i] > 18) {
-      mayor++;
+         mayor++;
       }
    }
    return mayor;
@@ -154,7 +154,7 @@ function todosIguales(array) {
    // Caso contrario retornar False.
    // Tu código:
    for (let i = 1; i < array.length; i++) {
-      if (array[i] === array [i-1]) {
+      if (array[i] === array[i - 1]) {
          return true;
       }
       return false;
@@ -229,7 +229,7 @@ function breakStatement(num) {
       return "Se interrumpió la ejecución";
    }
    return arrayNumeros;
-}  
+}
 
 function continueStatement(num) {
    // Iterar en un bucle aumentando en 2 el número recibido hasta un límite de 10 veces.
